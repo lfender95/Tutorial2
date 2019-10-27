@@ -6,11 +6,8 @@ using UnityEngine.UI;
 public class PlayerScript : MonoBehaviour
 {
     private Rigidbody2D rd2d;
-
     public float speed;
-
     public Text score;
-
     private int scoreValue = 0;
 
     // Start is called before the first frame update
